@@ -1,4 +1,3 @@
-// pages/index.tsx
 import Head from "next/head";
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
         />
       </Head>
 
-      {/* Navbar */}
       <nav className="flex justify-between items-center px-6 md:px-16 py-4 bg-white shadow-md">
         <h1 className="text-2xl font-bold text-blue-600">Snappify</h1>
         <div>
@@ -25,7 +23,6 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <section className="text-center py-20 px-6 bg-gradient-to-r from-blue-500 to-purple-500 text-white">
         <h1 className="text-4xl md:text-5xl font-bold leading-tight">
           Create Beautiful Code Snippets
@@ -56,7 +53,7 @@ export default function Home() {
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
               <h3 className="text-black text-xl font-semibold">Elevate your Technical Content</h3>
                 <p className="text-gray-600 mt-2">
-                  You're a developer, looking to create visually engaging infographics for social media?
+                  You&apos;re a developer, looking to create visually engaging infographics for social media?
                   Use snappify to create stunning visuals of your technical concepts, that will engage your followers and take your social media presence to the next level.
               </p>
             </div>
@@ -71,14 +68,13 @@ export default function Home() {
               <h3 className="text-black text-xl font-semibold">Embed Interactive infographics</h3>
               <p className="text-gray-600 mt-2">
                 Snappify enables you to embed your visuals in a way that your viewers can easily copy code snippets or texts.
-                It's the perfect way to bring your blog to life or spice up your internal company documentation using rich infographics. 
+                It&apos;s the perfect way to bring your blog to life or spice up your internal company documentation using rich infographics. 
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Call to Action */}
       <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center py-16">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl font-bold">Get Started for Free</h2>
@@ -94,7 +90,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 text-center py-6">
         <p>&copy; {new Date().getFullYear()} Snappify. All rights reserved.</p>
       </footer>
